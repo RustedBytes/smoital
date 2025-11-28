@@ -2,6 +2,13 @@
 name = "smoital"
 version = "0.1.0"
 edition = "2024"
+description = "Synodic Mars-Orbit Intercalary Timezone Alignment"
+license = "Apache-2.0"
+repository = "https://github.com/RustedBytes/smoital"
+readme = "README.md"
+keywords = ["date", "time", "datetime", "utc", "calendar", "mars", "smol", "first-robotic-planet"]
+categories = ["date-and-time"]
+documentation = "https://docs.rs/smoital"
 
 [dependencies]
 chrono = "0.4"
