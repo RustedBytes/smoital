@@ -1,5 +1,8 @@
 # smoital
 
+[![Test](https://github.com/RustedBytes/smoital/actions/workflows/test.yml/badge.svg)](https://github.com/RustedBytes/smoital/actions/workflows/test.yml)
+[![Crates.io Version](https://img.shields.io/crates/v/smoital)](https://crates.io/crates/smoital)
+
 A Rust library for practical Martian timekeeping compatible with Earth-based ISO8601 standards.
 
 Based on the 2025 paper *"The Smoital System"* by Ben Joffe, this library implements a system that allows Martian colonies to track Mean Solar Time using standard Earth computing primitives (UTC offsets and IANA timezones).
