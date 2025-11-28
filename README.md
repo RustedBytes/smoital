@@ -33,7 +33,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-smoital = "0.1.0"
+smoital = "0.1"
 chrono = "0.4"
 ```
 
