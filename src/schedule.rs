@@ -146,7 +146,7 @@ impl HeuristicSchedule {
                 let s_month_offset = spacings[spacing_idx];
                 // Formula approx: 36 * (FirstLongSmonth + Spacing) + n
                 // We clamp to ensure valid day indices.
-                let date_idx = 36 * (first_long_smonth + s_month_offset) + (n as i32);
+                let date_idx = 36 * (first_long_smonth + s_month_offset) + n;
                 if date_idx >= 0 {
                     smol_dates.push(date_idx as u32);
                 }
