@@ -5,7 +5,7 @@
 
 A Rust library for practical Martian timekeeping compatible with Earth-based ISO8601 standards.
 
-Based on the 2025 paper *"The Smoital System"* by Ben Joffe, this library implements a system that allows Martian colonies to track Mean Solar Time using standard Earth computing primitives (UTC offsets and IANA timezones).
+Based on the 2025 paper [*"The Smoital System"* by Ben Joffe](https://www.marspapers.org/paper/Joffe_2025contrib.pdf), this library implements a system that allows Martian colonies to track Mean Solar Time using standard Earth computing primitives (UTC offsets and IANA timezones).
 
 ## The Concept
 
