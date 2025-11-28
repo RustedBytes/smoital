@@ -1,6 +1,6 @@
 [package]
 name = "smoital"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Synodic Mars-Orbit Intercalary Timezone Alignment"
 license = "Apache-2.0"
